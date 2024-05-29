@@ -1,12 +1,14 @@
-// console.log("hello world");
+// // console.log("hello world");
 
-// function greet(){
-//     console.log("good morning");
-// }
+// // function greet(){
+// //     console.log("good morning");
+// // }
 
-// greet();
+// // greet();
 
-console.log(global);
+// console.log(global);
 
-let name = "gauri";
-console.log(global.name); //undefined
+// let name = "gauri";
+// console.log(global.name); //undefined
+
+
