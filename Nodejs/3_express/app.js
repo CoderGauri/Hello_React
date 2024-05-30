@@ -18,6 +18,12 @@ app.get('/contact' , (req, res)=> {
 //app.post();
 //app.delete();
 
+//Route Parameter
+app.get('/courses/:id' , (req, res)=> {
+    
+   res.send(req.params.id) 
+});
+
 const port = process.env.PORT || 3000
 
 app.listen(port , () => {
