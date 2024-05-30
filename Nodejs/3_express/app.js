@@ -10,10 +10,16 @@ res.send("Hello from express JS")
 app.get('/about' , (req, res)=> {
     res.send("Hello this page will tell you express")
 });
+
+app.get('/contact' , (req, res)=> {
+    res.send("Hello contact us through this page ")
+});
 //app.put();
 //app.post();
 //app.delete();
 
-app.listen(3000 , () => {
-    console.log("port is up and running");
+const port = process.env.PORT || 3000
+
+app.listen(port , () => {
+    console.log(`port is running on ${port}`);
 })
