@@ -6,6 +6,10 @@ const app = express();
 app.get('/' , (req , res) => {
 res.send("Hello from express JS")
 });
+
+app.get('/about' , (req, res)=> {
+    res.send("Hello this page will tell you express")
+});
 //app.put();
 //app.post();
 //app.delete();
