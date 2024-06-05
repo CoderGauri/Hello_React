@@ -14,7 +14,7 @@ app.get('/about' , (req, res)=> {
 app.get('/contact' , (req, res)=> {
     res.send("Hello contact us through this page ")
 });
-//app.put();
+app.put();
 //app.post();
 //app.delete();
 
