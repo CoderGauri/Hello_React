@@ -15,7 +15,7 @@ app.get('/contact' , (req, res)=> {
     res.send("Hello contact us through this page ")
 });
 app.put();
-//app.post();
+app.post();
 //app.delete();
 
 //Route Parameter
