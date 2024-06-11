@@ -16,7 +16,7 @@ app.get('/contact' , (req, res)=> {
 });
 app.put();
 app.post();
-//app.delete();
+app.delete();
 
 //Route Parameter
 app.get('/courses/:id' , (req, res)=> {
